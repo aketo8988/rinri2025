@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>倫理 穴埋め問題</title>
+  <style>
+    /* PC 基本サイズ */
+    body {
+      font-family: sans-serif;
+      font-size: 16px;
+      padding: 20px;
+      line-height: 1.8;
+    }
+    /* スマホだけ文字を大きく */
+    @media (max-width: 768px) {
+      body { font-size: 20px; }
+    }
+    .question { margin-bottom: 12px; }
+    .answer   { display: none; color: blue; font-weight: bold; }
+    .toggle   { cursor: pointer; background:#f0f0f0; padding:2px 4px; border-radius:4px; }
+    table     { border-collapse: collapse; margin-top:8px; }
+    th, td    { border:1px solid #ccc; padding:6px 8px; }
+    td.toggle { cursor: pointer; background:#f0f0f0; }
+  </style>
+</head>
+<body>
+<h1>倫理 穴埋め問題</h1>
+<div id="quiz">
+  <div class="question">1. 哲学の語源は古代ギリシャ語で「知を愛し求める」の意である <span class="toggle">（<span class="answer">フィロソフィア</span>）</span> である。</div>
+  <div class="question">2. <span class="toggle">（<span class="answer">合理性</span>）</span> とは、理性にかなうことであり、論理的に道筋を立てて考えることである。</div>
+  <div class="question">3. <span class="toggle">（<span class="answer">普遍性</span>）</span> とは、すべてにあてはまることであり、いつでもどこでも誰にでも共通の真理であることをいう。</div>
+  <div class="question">4. <span class="toggle">（<span class="answer">不可知論</span>）</span> は哲学の可能性を閉ざす考え方の一つであり、わからないことや知るのが難しいことを諦めてしまうものである。</div>
+  <div class="question">5. <span class="toggle">（<span class="answer">独断論</span>）</span> もまた哲学の可能性を閉ざす考え方であり、自分の価値や見方は絶対に正しいとするものである。</div>
+  <div class="question">6. 哲学にとって重要な態度は、あらゆる考えを常に批判的に検討し健全に疑うという <span class="toggle">（<span class="answer">懐疑</span>）</span> の姿勢を持つことである。</div>
+  <div class="question">7. 哲学による対話が生じる前は、世界の秩序や人間の倫理を <span class="toggle">（<span class="answer">神話</span>）</span> によって説明していた。</div>
+  <div class="question">8. 古代ギリシャの都市国家の市民たちは、神話による説明にかわり、人間のことば・論理・理性による思考法である <span class="toggle">（<span class="answer">ロゴス</span>）</span> により真理を探究する哲学を生み出した。</div>
+  <div class="question">9. 自然哲学者たちは、何かの役に立てるために宇宙や人間への問いを追求するのではなく、純粋に知るためだけに考察する <span class="toggle">（<span class="answer">テオリア</span>）</span> を大切にした。テオリアには、深く考えながら観るという意味がある。</div>
+  <div class="question">10. 自然の探究を行った哲学者たちは、生成変化する世界の原因・根拠となる始源である <span class="toggle">（<span class="answer">アルケー</span>）</span> を探究した。</div>
+  <div class="question">11. <span class="toggle">（<span class="answer">タレス</span>）</span> はアルケーを水であるとした。</div>
+  <div class="question">12. アナクシマンドロスはアルケーを <span class="toggle">（<span class="answer">無限</span>）</span> であるとした。</div>
+  <div class="question">13. ヘラクレイトスはアルケーを <span class="toggle">（<span class="answer">火</span>）</span> であるとした。</div>
+  <div class="question">14. ピタゴラスは、宇宙の調和は <span class="toggle">（<span class="answer">数</span>）</span> で秩序づけられているとした。</div>
+  <div class="question">15. 前５世紀頃ギリシャでは、授業料をとって教育を行う専門知識人である <span class="toggle">（<span class="answer">ソフィスト</span>）</span> が議論の中心的な役割を担った。</div>
+  <div class="question">16. ソフィストは“徳”を意味する <span class="toggle">（<span class="answer">アレテー</span>）</span> の教師として市民教育を行った。（ここでいう徳とは、成功や人に勝つための能力のこと）</div>
+  <div class="question">17. ソフィストの一人であるプロタゴラスは、「人間は万物の <span class="toggle">（<span class="answer">尺度</span>）</span> である」とした。</div>
+  <div class="question">18. 上記17の考え方は、人間一人ひとりの判断が物事の真偽の基準である（超約人それぞれ）とする <span class="toggle">（<span class="answer">相対主義</span>）</span> の代表例である。</div>
+  <div class="question">19. ソフィストの一人であるゴルギアスは、言論により説得する能力を重要視する <span class="toggle">（<span class="answer">弁論術</span>）</span> を教えた。</div>
+  <div class="question">20. ソクラテスは、人々との <span class="toggle">（<span class="answer">対話</span>）</span> (ディアロゴス) による哲学をおこなった。</div>
+  <div class="question">21. ソクラテスは、ソフィストたちは大切なことを知らないにもかかわらず、知っていると思い込んで無知の状態にあることに気づき、知らないことを率直に認める <span class="toggle">（<span class="answer">不知の自覚</span>）</span> をうながした。</div>
+  <div class="question">22. 質問を繰り返すことで相手の考えを深め、矛盾や未解決の問題に気付かせるソクラテスの対話法を <span class="toggle">（<span class="answer">問答法</span>）</span> という。</div>
+  <div class="question">23. ソクラテスは人々に対し、「ただ生きるのではなく、 <span class="toggle">（<span class="answer">善く生きる</span>）</span> ことが大切である」とうながした。</div>
+  <div class="question">24. ソクラテスの教えは、デルフォイのアポロン神殿にかかげられていた「 <span class="toggle">（<span class="answer">汝自身を知れ</span>）</span> 」という教訓にあらわれるが、これは自分の無知を知り、真の徳や真理を求めて生きよ、という意味が込められている。</div>
+  <div class="question">25. <span class="toggle">（<span class="answer">主知主義</span>）</span> とは、知識・理性を重視する立場である。</div>
+  <div class="question">26. ソクラテスの問いかけは、相手がみずから知恵を生み出す手助けをするという意味で <span class="toggle">（<span class="answer">助産術</span>）</span> とよばれた。</div>
+  <div class="question">27. プラトンは、師であるソクラテスの哲学を受けて、その問いかけに向きあう中でイデア論を提示して、 <span class="toggle">（<span class="answer">理想主義</span>）</span> の哲学を打ち出した。</div>
+  <div class="question">28. プラトンはイデアへのあこがれを、 <span class="toggle">（<span class="answer">洞窟</span>）</span> の比喩をはじめとするイメージを用いて示した。</div>
+  <div class="question">29. プラトンは、魂がすでに知っていたイデアを思い出すことである <span class="toggle">（<span class="answer">想起</span>）</span> こそが真理を知る学びであるとした。</div>
+  <div class="question">30. 完全で絶対的なイデアへのあこがれを <span class="toggle">（<span class="answer">エロース</span>）</span> という。</div>
+  <div class="question">31. 美しい事物の経験を通じて <span class="toggle">（<span class="answer">美</span>）</span> のイデアに向かう上昇は、魂を真のあり方へと導くとプラトンは考えた。</div>
+  <div class="question">32. より良い生き方の追求の先にあるのが、イデアの中でも最も根源的であり、他のイデアの存在を可能にするものである <span class="toggle">（<span class="answer">善</span>）</span> のイデアである。</div>
+  <div class="question">
+    33. 以下の表をうめよ<br>
+    <table>
+      <tr><th>四元徳</th><th>説明</th></tr>
+      <tr><td>知恵</td><td class="toggle">（<span class="answer">思慮深く判断する力</span>）</td></tr>
+      <tr><td>勇気</td><td class="toggle">（<span class="answer">正義のために恐れず行動する力</span>）</td></tr>
+      <tr><td>節制</td><td class="toggle">（<span class="answer">欲望や感情を理性に従わせる力</span>）</td></tr>
+      <tr><td>正義</td><td class="toggle">（<span class="answer">各部分が本来の役割を果たし、全体が調和する状態</span>）</td></tr>
+    </table>
+  </div>
+  <div class="question">34. プラトンは、教育を通じて知恵の徳を培った哲学者が実際の政治にあたる <span class="toggle">（<span class="answer">哲人政治</span>）</span> によってのみ、社会に正義を実現する理想国家が生まれると考えた。</div>
+</div>
+
+<script>
+  document.querySelectorAll('.toggle').forEach(el => {
+    el.addEventListener('click', () => {
+      const ans = el.querySelector('.answer');
+      ans.style.display = (ans.style.display === 'inline') ? 'none' : 'inline';
+    });
+  });
+</script>
+</body>
+</html>
